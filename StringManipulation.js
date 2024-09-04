@@ -19,7 +19,7 @@ function reverse (str){
     res="";
     for(i=0;i<cap.length;++i){
        cap[i][0]= cap[i][0].toUpperCase();
-       res += i;
+       res += cap[i];
     }
     return res;
  }
