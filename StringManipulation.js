@@ -14,15 +14,6 @@ function reverse (str){
     return str.length;
  }
 
- function capitalize (str){
-    cap=str.split(' ');
-    res="";
-    for(i=0;i<cap.length;++i){
-       cap[i][0]= cap[i][0].toUpperCase();
-       res += cap[i];
-    }
-    return res;
- }
 
 //capitalize
  function capitalize (str){
